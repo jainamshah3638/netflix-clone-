@@ -1,0 +1,40 @@
+.Row{
+   
+    color: white;
+    margin-left: 25px;
+}
+.Row__title{
+    color: white;
+    margin: 20px 0px;
+    
+}
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-x: inherit;
+   
+}
+.row__posters::-webkit-scrollbar {
+ display: none;
+}
+.row__poster {
+    object-fit: contain;
+  
+    padding: 0px 15px;
+    max-width: 100%;
+    max-height: 150px;
+    transition: transform ease-in-out 450ms;
+}
+
+.row__poster:hover {
+    transform: scale(1.1)
+}
+
+.row__posterLarge{
+    max-height: 300px;
+   
+}
+.row__posterLarge:hover{
+    transform: scale(1.2)
+}

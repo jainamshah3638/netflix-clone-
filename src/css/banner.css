@@ -1,0 +1,54 @@
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+.banner_content{
+    padding-top: 180px;
+    color: white;
+    margin-left: 20px;
+}
+
+.banner_content > h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.twobtn{
+
+}
+
+.banner__btn {
+ cursor: pointer;
+ padding:8px 40px;
+ margin-right: 10px;
+ margin-bottom: 25px;
+ color: white;
+ background-color: rgba(51,51,51,0.5);
+ border: none;
+    border-radius: 0.2rem;
+}
+
+.banner__btn:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+.banner__description {
+    font-size: 18px;
+    max-width: 500px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.banner--fadein{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
